@@ -227,3 +227,12 @@ text-align: center;
 .s ul h3 {
   padding-bottom: 3%;
 }
+
+
+.Subs button {
+  float: right;
+}
+
+.Subs h4 {
+  margin-left: 15%;
+}
