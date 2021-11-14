@@ -15,10 +15,16 @@
   margin-right: 25%;
 }
 
+.navbar ul li a:hover {
+  color: red;
+
+}
+
 li {
   margin-right: 1%;
   padding: 0% 15%;
 }
+
 .img {
   float: right;
   margin-right: 10%;
@@ -48,6 +54,7 @@ li {
   text-align: center;
   color: white;
 }
+
 .all {
   background-image: -webkit-linear-gradient(160deg, #F6B400 38.76%, white 25%);
   height: 600px;
@@ -56,9 +63,10 @@ li {
 
 .section1 {
   display: flex;
-text-align: center;
+  text-align: center;
   background-color: rgb(247, 253, 252);
   height: 550px;
+
 }
 
 .Q {
@@ -129,6 +137,7 @@ text-align: center;
   width: 60px;
 
 }
+
 .Ksh {
   display: flex;
   margin-bottom: 4%;
@@ -138,10 +147,12 @@ text-align: center;
   margin-left: 20%;
   margin-top: 2%;
 }
+
 .Ksh button {
   width: 55PX;
   height: 35px;
 }
+
 .section3 {
   display: flex;
   width: 100%;
@@ -164,6 +175,8 @@ text-align: center;
 
   background-color: rgb(247, 253, 252);
   height: 500px;
+  width: 111%;
+  margin-top: -5%;
 }
 
 .decker img {
@@ -202,11 +215,13 @@ text-align: center;
   margin-left: 10%;
   margin-top: 1%;
 }
+
 .section5 {
   background-color: rgb(247, 253, 252);
   display: flex;
   margin-top: 10px;
   justify-content: space-between;
+  width: 111%;
 }
 
 .logo2 {
@@ -223,6 +238,7 @@ text-align: center;
   margin-right: 30%;
   margin-left: 20%;
 }
+
 .S ul {
   justify-content: center;
   list-style: none;
@@ -239,11 +255,39 @@ text-align: center;
 }
 
 .Subs h4 {
-  margin-left: 15%;
+  margin-left: 10%;
 }
 
 
 .footer {
   display: flex;
   justify-content: space-between;
+}
+
+
+.section3 .Ksh1 {
+  margin-left: 80%;
+  margin: 50px;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  border-radius: 20px;
+}
+
+.Ksh1 >button{
+margin-top: 6%;
+height: 30px;
+border-radius: 10%;
+padding-left: 4%;
+}
+
+
+
+.arrow {
+  margin-left: -115%;
+  margin-top: -11%;
+}
+
+.footer .name {
+  margin-right: -10%;
 }
