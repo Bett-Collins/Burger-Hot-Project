@@ -202,7 +202,12 @@ text-align: center;
   margin-left: 10%;
   margin-top: 1%;
 }
-
+.section5 {
+  background-color: rgb(247, 253, 252);
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
 
 .logo2 {
   display: flex;
@@ -235,4 +240,10 @@ text-align: center;
 
 .Subs h4 {
   margin-left: 15%;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
 }
